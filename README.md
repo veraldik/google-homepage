@@ -1,0 +1,1 @@
+Recreating the google homepage without functionality as the first assignment for The Odin Project
