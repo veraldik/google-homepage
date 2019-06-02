@@ -1,0 +1,80 @@
+body {
+  font-family: arial, sans-serif;
+  text-align:center;
+  height:100%;
+}
+
+nav {
+  display:flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.alignRight, .alignLeft {
+  display:flex;
+  align-items:center;
+}
+
+
+a {
+  font-size:13px;
+  padding: 9px;
+  color: #000;
+  text-decoration:none;
+  opacity:0.77;
+  cursor:pointer;
+}
+
+.logo {
+  height:92px;
+  width:272px;
+  padding-top:109px;
+}
+
+.dots {
+  width:17px;
+  padding-top:2px;
+}
+
+.signIn {
+  width:65px;
+}
+
+.searchBox {
+  margin:30px;
+  height:34px;
+  width:430px;
+  padding:10px;
+  font-size: 15px;
+  border-radius:20px;
+  border: 1px solid rgb(237, 237, 237);
+  box-shadow:0 1px 0 0 rgb(216, 216, 216);
+  line-height:34px;
+
+}
+
+button#search, button#lucky {
+  height: 36px;
+  line-height: 27px;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  color: #5F6368;
+  cursor: pointer;
+  font-size: 14px;
+  margin: 11px 4px;
+  min-width: 54px;
+  padding: 0 16px;
+  text-align: center;
+}
+
+button#search:hover, button#lucky:hover {
+  border: 1px solid rgb(198, 198, 198);
+  color:black;
+}
+
+footer {
+  display:flex;
+  position: absolute;
+  bottom:0;
+}
